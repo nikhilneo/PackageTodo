@@ -1,0 +1,19 @@
+{
+    "name": "nikhilneo/todolist",
+    "description": "This package will add todolist using database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ni Mishra",
+            "email": "nikhil.kumar@neosofttech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nikhilneo\\Todolist\\": "src/"
+        }
+    }
+}
