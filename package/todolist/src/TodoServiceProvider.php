@@ -8,6 +8,7 @@ use Illuminate\Support\ServiceProvider;
         {
             $this->loadRoutesFrom(__DIR__.'/routes/web.php');
             $this->loadViewsFrom(__DIR__.'/views', 'todolist');
+            $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         }
 
         public function register()

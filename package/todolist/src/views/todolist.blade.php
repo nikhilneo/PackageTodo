@@ -8,7 +8,7 @@
 </head>
 <body>
     <p>Hello every one here is our todolist page.</p>
-    <form action="" method="post">
+    <form action="{{ route('todolist.form') }}" method="post">
         {{ csrf_field()}}
         <label for="name">To Do Title : </label>
         <input type="text" name="name" id="name">
