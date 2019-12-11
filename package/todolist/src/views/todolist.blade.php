@@ -15,7 +15,7 @@
         <br><br>
 
         <label for="description">Description : </label>
-        <textarea name="description" id="description" cols="20" rows="10"></textarea>
+        <textarea name="description" id="description" cols="20" rows="5"></textarea>
         <br/><br/>
 
         <input type="submit" value="Save into Todo List">
